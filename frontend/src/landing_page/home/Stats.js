@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Stats() {
   return (
@@ -35,14 +36,14 @@ function Stats() {
             style={{ width: "90%" }}
           />
           <div className="text-center">
-            <a href="#" className="mx-5" style={{ textDecoration: "none" }}>
+            <Link to="/product" className="mx-5" style={{ textDecoration: "none" }}>
               Explore our products{" "}
               <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
-            </a>
-            <a href="#" style={{ textDecoration: "none" }}>
+            </Link>
+            <Link to="/product" style={{ textDecoration: "none" }}>
               Try Kite demo{" "}
               <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
